@@ -14,8 +14,16 @@ Follow these instructions to get the application up and running on your local ma
 
 ### Installation
 
-1. Clone the repository:
-   git clone https://github.com/yourusername/your-repo.git
+1. project in imstallation from git
+   -git clone https://github.com/shubhampawade11/student_crud.git
+   -cd repository
+   -composer install
+   -Rename.env.example file to .env:
+   -php artisan key:generate
+   -php artisan migrate --seed
+   -php artisan serve
+
+
 
 2. MYSQL configuration
 
